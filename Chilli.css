@@ -1,0 +1,143 @@
+h1 {
+	font-family: "Raleway", sans-serif ;
+}
+
+p {
+	font-family: "Raleway", sans-serif;
+	padding-left: 6.5%;
+	padding-right: 6.5%;
+}
+
+#Tabela {
+	font-family: "Raleway", sans-serif;
+	border-collapse: collapse;
+	width: 60%;
+	border-color: black;
+
+}
+
+#Tabela td, #Tabela th {
+	border: 1px solid ;
+	padding: 8px;
+}
+
+#Tabela th {
+	background-color:#ad404d;
+	padding-bottom:12px ;
+}
+
+hr {
+	color: black;
+}
+
+li {
+	font-size: 30px;
+
+}
+
+button {
+	display: inline-block;
+	color: white;
+	padding: 15px 25px;
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	background-color:#ad404d ;
+	border: none;
+	border-radius: 15px;
+	font-family: "Raleway", sans-serif ;
+	transition-duration: 0.4s;
+  }
+
+button:hover {
+	background-color: #85333c;
+	
+}
+
+input {
+	padding: 10px;
+	border-radius: 10px;
+
+
+}
+
+  input[type=text] {
+	width: 30%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 3px solid #ccc;
+	box-sizing: border-box;
+	-webkit-transition: 0.5s;
+	transition: 0.5;
+	outline: none;
+  }
+
+  input[type=text]:focus
+  {
+	border: 3px, solid, #7c7b7b;
+
+  }
+
+  input[type=date], select {
+	width: 20%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 3px solid #ccc;
+	box-sizing: border-box;
+	transition: 0.5s;
+	outline: none ;
+  }
+
+  input[type=date]:focus{
+	border: 3px solid #7c7b7b;
+  }
+
+input[type=submit] {
+	border: none;
+	background-color: #ad404d;
+	color: white;
+	font-family: "raleway", sans-serif;
+	padding: 12px 24px;
+	margin: 4px, 2px;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: 0.5s;
+	
+}
+
+input[type=submit]:hover {
+	background-color: #85333c;
+
+}
+
+.span1 {
+	font-family: "raleway", sans-serif;
+	font-size: 20px;
+}
+
+label {
+	font-family: "raleway", sans-serif;
+	font-size: 30px;
+	display: block;
+}
+
+
+a {
+	color: #ad404d;
+}
+
+.container {
+	box-shadow: 0px 4px 8px;
+	border-radius: 10px;
+	padding: 40px;
+}
+
+
+
+
